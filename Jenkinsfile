@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'node --version'
+                sh 'sleep 30; node --version'
             }
         }
     }
